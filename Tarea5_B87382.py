@@ -43,6 +43,10 @@ y = np.linalg.solve(matrix_a, matrix_c)
 x_cells = [x[0], x[1], x[2]]
 y_cells = [y[0], y[1], y[2]]
 
+#Impresiones
+print("Las posiciones de x_1 y y_1 son:", np.array([x[0], y[0]]), "\n")
+print("Las posiciones de x_2 y y_2 son:", np.array([x[1], y[1]]), "\n")
+print("Las posiciones de x_3 y y_3 son:", np.array([x[2], y[2]]), "\n")
 
 #Codigo tomado del profesor
 """
